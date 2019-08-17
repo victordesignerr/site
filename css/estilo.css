@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../img/fundo.jpg');
+   	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+#logo {
+    float: left;
+    background-color: #F2930C;
+    margin-left: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+#logo span {
+    color: #f4fff5;
+    font-size: 30pt;
+    font-weight: bold;
+    padding: 5px 5px 0 0px;    
+}
+
+#logo span a { 
+    text-decoration: none;
+    color: #f4fff5;
+    padding: 5px 5px 5px 5px;
+}
+
+.menu{
+    list-style-type: none;
+}
+ #links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background: #349967;
+    padding-top: 10px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+}
+
+#links a:hover {
+    background-color: #F2930C;
+    color: #f4fff5; 
+    transition: 0.5s;
+}
+
+#links ul li {
+    display: inline;
+    /*Espaço entre os itens*/
+    line-height: 50px;
+}
+
+#links {
+    text-align: center;
+}
+
+.container {
+    margin: 10px 25px 10px 25px;
+    padding: 10px 25px 10px 25px;
+    background-color: #f4fff5;
+}
+
+.container h1 {
+    font-size: 23pt;
+    color: #349967;
+    font-weight: bold;
+}
+
+.container h2 {
+    font-size: 16pt;
+    color: #F2930C;
+    font-weight: bold;
+}
+
+.container h3 {
+    font-size: 12pt;
+    color: #F2930C;
+    font-weight: bold;
+}
+
+.container hr {
+    border-color: #F2930C;
+}
+
+.container ul {
+    list-style-type:  none;
+}
+
+.container p {
+    text-align: justify
+}
+
+.container table {
+    margin: 20px 15px 20px 15px;
+    padding: 5px 5px;
+    border: 3px solid #349967;
+}
+
+.container table td {
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #349967;
+    padding: 5px 5px;
+    background-color: rgba(242, 146, 12, 0.568)
+}
+
+.galeria  {
+    text-align: center;
+    background-color: #f4fff5;
+}
+
+.galeria img {
+    width: 320px;
+    height: 320px;
+    transition: 1s;
+    border: 5px solid #F2930C;
+    margin: 10px 20px 10px 20px;
+}
+
+.galeria img:hover {
+    width: 340px;
+    height: 340px;
+    transition: 1s;
+    border: 5px solid #349967;
+}
+.rodape {
+    margin: 10px 0 10px 0;
+    text-align: center;
+    background-color: #F2930C;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.rodape p {
+    font-size: 11pt;
+}
+
+.rodape p span {
+    font-weight: bold;
+}
+
+
